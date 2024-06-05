@@ -1,0 +1,223 @@
+{
+    "historical_data": {
+        "Open": {
+            "2024-06-05 00:00:00+05:30": 1499.949951171875
+        },
+        "High": {
+            "2024-06-05 00:00:00+05:30": 1511.75
+        },
+        "Low": {
+            "2024-06-05 00:00:00+05:30": 1482.5
+        },
+        "Close": {
+            "2024-06-05 00:00:00+05:30": 1506.050048828125
+        },
+        "Volume": {
+            "2024-06-05 00:00:00+05:30": 141218
+        },
+        "Dividends": {
+            "2024-06-05 00:00:00+05:30": 0.0
+        },
+        "Stock Splits": {
+            "2024-06-05 00:00:00+05:30": 0.0
+        }
+    },
+    "current_data": {
+        "address1": "HDFC Bank House",
+        "address2": "Senapati Bapat Marg Lower Parel (W)",
+        "city": "Mumbai",
+        "zip": "400013",
+        "country": "India",
+        "phone": "91 22 6652 1000",
+        "website": "https://www.hdfcbank.com",
+        "industry": "Banks - Regional",
+        "industryKey": "banks-regional",
+        "industryDisp": "Banks - Regional",
+        "sector": "Financial Services",
+        "sectorKey": "financial-services",
+        "sectorDisp": "Financial Services",
+        "longBusinessSummary": "HDFC Bank Limited provides banking and financial services to individuals and businesses in India, Bahrain, Hong Kong, and Dubai. The company operates in three segments: Wholesale Banking, Retail Banking, and Treasury Services. It accepts savings, salary, current, rural, public provident fund, pension, and demat accounts; fixed and recurring deposits; and safe deposit lockers, as well as offshore accounts and deposits, and overdrafts against fixed deposits. The company also provides personal, home, car, two-wheeler, business, doctor, educational, gold, consumer, and rural loans; loans against properties, securities, fixed deposits, rental receivables, and assets; loans for professionals; government sponsored programs; and loans on credit card, as well as working capital and commercial/construction equipment finance, healthcare/medical equipment and commercial vehicle finance, dealer finance, and term loans. In addition, it offers credit, debit, prepaid, and forex cards; payment and collection, export, import, remittance, bank guarantee, letter of credit, trade, hedging, and merchant and cash management services; insurance and investment products. Further, the company provides short term finance, bill discounting, structured finance, export credit, loan repayment, and documents collection services; online and wholesale, mobile, and phone banking services; unified payment interface, immediate payment, national electronic funds transfer, and real time gross settlement services; and channel financing, vendor financing, reimbursement account, money market, derivatives, employee trusts, cash surplus corporates, tax payment, and bankers to rights/public issue services, as well as financial solutions for supply chain partners and agricultural customers. It operates branches and automated teller machines in various cities/towns. The company was incorporated in 1994 and is headquartered in Mumbai, India.",
+        "companyOfficers": [
+            {
+                "maxAge": 1,
+                "name": "Mr. Sashidhar  Jagdishan",
+                "age": 58,
+                "title": "MD, CEO & Director",
+                "yearBorn": 1965,
+                "fiscalYear": 2023,
+                "totalPay": 105500000,
+                "exercisedValue": 0,
+                "unexercisedValue": 0
+            },
+            {
+                "maxAge": 1,
+                "name": "Mr. Kaizad Maneck Bharucha",
+                "age": 58,
+                "title": "Deputy MD & Director",
+                "yearBorn": 1965,
+                "fiscalYear": 2023,
+                "totalPay": 100300000,
+                "exercisedValue": 0,
+                "unexercisedValue": 0
+            },
+            {
+                "maxAge": 1,
+                "name": "Mr. Srinivasan  Vaidyanathan",
+                "age": 59,
+                "title": "Chief Financial Officer",
+                "yearBorn": 1964,
+                "fiscalYear": 2023,
+                "totalPay": 30179680,
+                "exercisedValue": 0,
+                "unexercisedValue": 0
+            },
+            {
+                "maxAge": 1,
+                "name": "Mr. Bhavesh Chandulal Zaveri",
+                "age": 57,
+                "title": "Group Head of Operations, ATM, Cash Management Product & Executive Director",
+                "yearBorn": 1966,
+                "fiscalYear": 2023,
+                "exercisedValue": 0,
+                "unexercisedValue": 0
+            },
+            {
+                "maxAge": 1,
+                "name": "Mr. Rakesh K. Singh",
+                "age": 53,
+                "title": "Group Head of Investment Banking, Private Banking, Marketing & Products",
+                "yearBorn": 1970,
+                "fiscalYear": 2023,
+                "exercisedValue": 0,
+                "unexercisedValue": 0
+            },
+            {
+                "maxAge": 1,
+                "name": "Mr. Ramesh  Lakshminarayanan",
+                "age": 52,
+                "title": "Chief Information Officer & Group Head of IT",
+                "yearBorn": 1971,
+                "fiscalYear": 2023,
+                "exercisedValue": 0,
+                "unexercisedValue": 0
+            },
+            {
+                "maxAge": 1,
+                "name": "Ms. Ashima Khanna Bhat",
+                "age": 52,
+                "title": "Group Head of Business Finance & Strategy, Administration, Infrastructure, ESG & CSR",
+                "yearBorn": 1971,
+                "fiscalYear": 2023,
+                "exercisedValue": 0,
+                "unexercisedValue": 0
+            },
+            {
+                "maxAge": 1,
+                "name": "Mr. Ajit Subhas Shetty",
+                "title": "Investor Relations Officer",
+                "fiscalYear": 2023,
+                "exercisedValue": 0,
+                "unexercisedValue": 0
+            },
+            {
+                "maxAge": 1,
+                "name": "Mr. Santosh Gurudas Haldankar",
+                "title": "Senior VP of Legal & Company Secretary",
+                "fiscalYear": 2023,
+                "totalPay": 5782287,
+                "exercisedValue": 0,
+                "unexercisedValue": 0
+            },
+            {
+                "maxAge": 1,
+                "name": "Mr. Rakesh Kumar Rajput",
+                "title": "Chief Compliance Officer",
+                "fiscalYear": 2023,
+                "exercisedValue": 0,
+                "unexercisedValue": 0
+            }
+        ],
+        "compensationAsOfEpochDate": 1703980800,
+        "maxAge": 86400,
+        "priceHint": 2,
+        "previousClose": 1482.75,
+        "open": 1499.95,
+        "dayLow": 1482.5,
+        "dayHigh": 1511.75,
+        "regularMarketPreviousClose": 1482.75,
+        "regularMarketOpen": 1499.95,
+        "regularMarketDayLow": 1482.5,
+        "regularMarketDayHigh": 1511.75,
+        "dividendRate": 19.5,
+        "dividendYield": 0.013200001,
+        "exDividendDate": 1715299200,
+        "payoutRatio": 0.1748,
+        "fiveYearAvgDividendYield": 0.67,
+        "beta": 0.768,
+        "trailingPE": 16.984888,
+        "volume": 141218,
+        "regularMarketVolume": 141218,
+        "averageVolume": 677713,
+        "averageVolume10days": 901900,
+        "averageDailyVolume10Day": 901900,
+        "bid": 1504.9,
+        "ask": 1506.15,
+        "marketCap": 11455333138432,
+        "fiftyTwoWeekLow": 1363.45,
+        "fiftyTwoWeekHigh": 1721.7,
+        "priceToSalesTrailing12Months": 5.0058713,
+        "fiftyDayAverage": 1494.213,
+        "twoHundredDayAverage": 1527.3514,
+        "trailingAnnualDividendRate": 19.5,
+        "trailingAnnualDividendYield": 0.01315124,
+        "currency": "INR",
+        "enterpriseValue": 16414395072512,
+        "profitMargins": 0.27995002,
+        "floatShares": 7561292315,
+        "sharesOutstanding": 7604149760,
+        "heldPercentInsiders": 0.0182,
+        "heldPercentInstitutions": 0.52005,
+        "impliedSharesOutstanding": 7606210048,
+        "bookValue": 600.848,
+        "priceToBook": 2.5065408,
+        "lastFiscalYearEnd": 1711843200,
+        "nextFiscalYearEnd": 1743379200,
+        "mostRecentQuarter": 1711843200,
+        "earningsQuarterlyGrowth": 0.399,
+        "netIncomeToCommon": 640620429312,
+        "trailingEps": 88.67,
+        "lastSplitFactor": "2:1",
+        "lastSplitDate": 1568851200,
+        "enterpriseToRevenue": 7.173,
+        "52WeekChange": -0.07774842,
+        "SandP52WeekChange": 0.23990989,
+        "lastDividendValue": 19.5,
+        "lastDividendDate": 1715299200,
+        "exchange": "BSE",
+        "quoteType": "EQUITY",
+        "symbol": "HDFCBANK.BO",
+        "underlyingSymbol": "HDFCBANK.BO",
+        "shortName": "HDFC BANK LTD.",
+        "longName": "HDFC Bank Limited",
+        "firstTradeDateEpochUtc": 946871100,
+        "timeZoneFullName": "Asia/Kolkata",
+        "timeZoneShortName": "IST",
+        "uuid": "5813f030-112a-3c67-bcc4-c6d1cf5f04a0",
+        "gmtOffSetMilliseconds": 19800000,
+        "currentPrice": 1506.05,
+        "recommendationKey": "none",
+        "totalCash": 2288345153536,
+        "totalCashPerShare": 301.262,
+        "totalDebt": 7306154606592,
+        "totalRevenue": 2288379494400,
+        "revenuePerShare": 322.992,
+        "returnOnAssets": 0.01995,
+        "returnOnEquity": 0.17221001,
+        "operatingCashflow": -3178954752000,
+        "earningsGrowth": 0.029,
+        "revenueGrowth": 1.132,
+        "operatingMargins": 0.26553,
+        "financialCurrency": "INR",
+        "trailingPegRatio": null
+    }
+}
