@@ -1,7 +1,6 @@
 import yfinance as yf
 import pandas as pd
-from sqlalchemy import create_engine
-
+from sqlalchemy import create_engine, text
 
 # Function to fetch stock data
 def get_stock_data(symbol):
@@ -27,7 +26,7 @@ def get_stock_data(symbol):
 
             # Convert current data to a DataFrame
             current_data_df = pd.DataFrame({
-                'symbol': symbol,
+                'symbol': [symbol],
                 'marketCap': [current_data.get('marketCap', None)],
                 'forwardPE': [current_data.get('forwardPE', None)],
                 'trailingPE': [current_data.get('trailingPE', None)],
@@ -65,13 +64,30 @@ for symbol in stock_symbols:
     historical_data, current_data = get_stock_data(symbol)
     if historical_data is not None and current_data is not None:
         try:
-            # Save historical data to MySQL table
-            historical_data.to_sql(name='HistoricalStockData', con=engine, if_exists='append', index=False)
-            print(f"Historical stock data saved in MySQL for {symbol}")
+            with engine.begin() as conn:
+                # Check if historical data exists
+                result = conn.execute(text(f"SELECT COUNT(*) FROM HistoricalStockData WHERE symbol = :symbol"), {'symbol': symbol})
+                count = result.scalar()
+                if count > 0:
+                    print("Delete old data and Insert new Data")
+                    # Delete existing historical data for the symbol
+                    conn.execute(text(f"DELETE FROM HistoricalStockData WHERE symbol = :symbol"), {'symbol': symbol})
 
-            # Save current data to MySQL table
-            current_data.to_sql(name='CurrentStockData', con=engine, if_exists='append', index=False)
-            print(f"Current stock data saved in MySQL for {symbol}")
+                # Insert new historical data
+                historical_data.to_sql(name='HistoricalStockData', con=conn, if_exists='append', index=False)
+                print(f"Historical stock data saved in MySQL for {symbol}")
+
+                # Check if current data exists
+                result = conn.execute(text(f"SELECT COUNT(*) FROM CurrentStockData WHERE symbol = :symbol"), {'symbol': symbol})
+                count = result.scalar()
+                if count > 0:
+                    # Delete existing current data for the symbol
+                    conn.execute(text(f"DELETE FROM CurrentStockData WHERE symbol = :symbol"), {'symbol': symbol})
+
+                # Insert new current data
+                current_data.to_sql(name='CurrentStockData', con=conn, if_exists='append', index=False)
+                print(f"Current stock data saved in MySQL for {symbol}")
+
         except Exception as e:
             print(f"Error saving data to MySQL for {symbol}: {e}")
     else:
