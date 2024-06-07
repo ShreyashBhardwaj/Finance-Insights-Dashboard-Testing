@@ -1,25 +1,25 @@
 {
     "historical_data": {
         "Open": {
-            "2024-06-05 00:00:00+05:30": 1400.0
+            "2024-06-07 00:00:00+05:30": 1475.1500244140625
         },
         "High": {
-            "2024-06-05 00:00:00+05:30": 1434.800048828125
+            "2024-06-07 00:00:00+05:30": 1539.0
         },
         "Low": {
-            "2024-06-05 00:00:00+05:30": 1400.0
+            "2024-06-07 00:00:00+05:30": 1475.1500244140625
         },
         "Close": {
-            "2024-06-05 00:00:00+05:30": 1430.4000244140625
+            "2024-06-07 00:00:00+05:30": 1533.3499755859375
         },
         "Volume": {
-            "2024-06-05 00:00:00+05:30": 262809
+            "2024-06-07 00:00:00+05:30": 2034394
         },
         "Dividends": {
-            "2024-06-05 00:00:00+05:30": 0.0
+            "2024-06-07 00:00:00+05:30": 0.0
         },
         "Stock Splits": {
-            "2024-06-05 00:00:00+05:30": 0.0
+            "2024-06-07 00:00:00+05:30": 0.0
         }
     },
     "current_data": {
@@ -56,7 +56,7 @@
                 "title": "MD, CEO & Director",
                 "yearBorn": 1964,
                 "fiscalYear": 2023,
-                "totalPay": 265000582,
+                "totalPay": 265928625,
                 "exercisedValue": 0,
                 "unexercisedValue": 0
             },
@@ -75,7 +75,7 @@
                 "title": "Executive VP, Group General Counsel & Chief Compliance Officer",
                 "yearBorn": 1965,
                 "fiscalYear": 2023,
-                "totalPay": 95541088,
+                "totalPay": 95875677,
                 "exercisedValue": 0,
                 "unexercisedValue": 0
             },
@@ -86,7 +86,7 @@
                 "title": "Group Head of HR, Exec VP & Svc Offering Head of Fin Svcs, Healthcare, Ins and Life Sciences",
                 "yearBorn": 1971,
                 "fiscalYear": 2023,
-                "totalPay": 10539427,
+                "totalPay": 10576336,
                 "exercisedValue": 0,
                 "unexercisedValue": 0
             },
@@ -133,7 +133,7 @@
                 "title": "Chief Financial Officer",
                 "yearBorn": 1974,
                 "fiscalYear": 2023,
-                "totalPay": 14874865,
+                "totalPay": 14926957,
                 "exercisedValue": 0,
                 "unexercisedValue": 0
             }
@@ -148,58 +148,58 @@
         "irWebsite": "http://www.infosys.com/investors/pages/index.aspx",
         "maxAge": 86400,
         "priceHint": 2,
-        "previousClose": 1394.4,
-        "open": 1400.0,
-        "dayLow": 1400.0,
-        "dayHigh": 1434.8,
-        "regularMarketPreviousClose": 1394.4,
-        "regularMarketOpen": 1400.0,
-        "regularMarketDayLow": 1400.0,
-        "regularMarketDayHigh": 1434.8,
+        "previousClose": 1472.5,
+        "open": 1475.15,
+        "dayLow": 1475.15,
+        "dayHigh": 1539.0,
+        "regularMarketPreviousClose": 1472.5,
+        "regularMarketOpen": 1475.15,
+        "regularMarketDayLow": 1475.15,
+        "regularMarketDayHigh": 1539.0,
         "dividendRate": 20.0,
-        "dividendYield": 0.0143,
+        "dividendYield": 0.0136,
         "exDividendDate": 1717113600,
         "payoutRatio": 0.5628,
         "fiveYearAvgDividendYield": 2.15,
-        "beta": 0.542,
-        "trailingPE": 22.554768,
-        "volume": 262810,
-        "regularMarketVolume": 262810,
-        "averageVolume": 415383,
-        "averageVolume10days": 400050,
-        "averageDailyVolume10Day": 400050,
-        "bid": 1431.35,
-        "ask": 1431.15,
-        "marketCap": 5926156238848,
+        "beta": 0.546,
+        "trailingPE": 24.105486,
+        "volume": 2034394,
+        "regularMarketVolume": 2034394,
+        "averageVolume": 428730,
+        "averageVolume10days": 465851,
+        "averageDailyVolume10Day": 465851,
+        "bid": 1530.3,
+        "ask": 1532.0,
+        "marketCap": 6349571751936,
         "fiftyTwoWeekLow": 1262.3,
         "fiftyTwoWeekHigh": 1731.0,
-        "priceToSalesTrailing12Months": 319.2628,
-        "fiftyDayAverage": 1453.527,
-        "twoHundredDayAverage": 1502.0028,
+        "priceToSalesTrailing12Months": 342.07367,
+        "fiftyDayAverage": 1449.386,
+        "twoHundredDayAverage": 1502.6882,
         "trailingAnnualDividendRate": 0.46,
-        "trailingAnnualDividendYield": 0.000329891,
+        "trailingAnnualDividendYield": 0.00031239388,
         "currency": "INR",
-        "enterpriseValue": 5770474160128,
+        "enterpriseValue": 6093804142592,
         "profitMargins": 0.17062001,
         "floatShares": 3580726103,
         "sharesOutstanding": 4140979968,
         "heldPercentInsiders": 0.15893,
-        "heldPercentInstitutions": 0.47333,
+        "heldPercentInstitutions": 0.47519,
         "impliedSharesOutstanding": 4143920128,
         "bookValue": 2.551,
-        "priceToBook": 560.99567,
+        "priceToBook": 601.07794,
         "lastFiscalYearEnd": 1711843200,
         "nextFiscalYearEnd": 1743379200,
         "mostRecentQuarter": 1711843200,
         "earningsQuarterlyGrowth": 0.289,
         "netIncomeToCommon": 3167000064,
-        "trailingEps": 63.45,
+        "trailingEps": 63.61,
         "lastSplitFactor": "2:1",
         "lastSplitDate": 1536019200,
-        "enterpriseToRevenue": 310.876,
-        "enterpriseToEbitda": 1371.962,
-        "52WeekChange": 0.08176887,
-        "SandP52WeekChange": 0.23990989,
+        "enterpriseToRevenue": 328.295,
+        "enterpriseToEbitda": 1448.836,
+        "52WeekChange": 0.16311216,
+        "SandP52WeekChange": 0.24520457,
         "lastDividendValue": 28.0,
         "lastDividendDate": 1717113600,
         "exchange": "BSE",
@@ -213,7 +213,7 @@
         "timeZoneShortName": "IST",
         "uuid": "4545da06-41e9-3920-851e-a3b616f66247",
         "gmtOffSetMilliseconds": 19800000,
-        "currentPrice": 1431.1,
+        "currentPrice": 1533.35,
         "recommendationKey": "none",
         "totalCash": 3320999936,
         "totalCashPerShare": 0.802,
@@ -234,6 +234,6 @@
         "ebitdaMargins": 0.22659001,
         "operatingMargins": 0.20087999,
         "financialCurrency": "USD",
-        "trailingPegRatio": 2.5589
+        "trailingPegRatio": 2.6966
     }
 }

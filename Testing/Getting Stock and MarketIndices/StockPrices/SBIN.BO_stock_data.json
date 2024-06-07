@@ -1,25 +1,25 @@
 {
     "historical_data": {
         "Open": {
-            "2024-06-05 00:00:00+05:30": 793.9500122070312
+            "2024-06-07 00:00:00+05:30": 820.5
         },
         "High": {
-            "2024-06-05 00:00:00+05:30": 793.9500122070312
+            "2024-06-07 00:00:00+05:30": 831.0
         },
         "Low": {
-            "2024-06-05 00:00:00+05:30": 744.0999755859375
+            "2024-06-07 00:00:00+05:30": 810.2999877929688
         },
         "Close": {
-            "2024-06-05 00:00:00+05:30": 760.2000122070312
+            "2024-06-07 00:00:00+05:30": 829.9000244140625
         },
         "Volume": {
-            "2024-06-05 00:00:00+05:30": 1725145
+            "2024-06-07 00:00:00+05:30": 2139387
         },
         "Dividends": {
-            "2024-06-05 00:00:00+05:30": 0.0
+            "2024-06-07 00:00:00+05:30": 0.0
         },
         "Stock Splits": {
-            "2024-06-05 00:00:00+05:30": 0.0
+            "2024-06-07 00:00:00+05:30": 0.0
         }
     },
     "current_data": {
@@ -141,57 +141,57 @@
         "compensationAsOfEpochDate": 1735603200,
         "maxAge": 86400,
         "priceHint": 2,
-        "previousClose": 775.2,
-        "open": 793.95,
-        "dayLow": 744.1,
-        "dayHigh": 793.95,
-        "regularMarketPreviousClose": 775.2,
-        "regularMarketOpen": 793.95,
-        "regularMarketDayLow": 744.1,
-        "regularMarketDayHigh": 793.95,
+        "previousClose": 816.95,
+        "open": 820.5,
+        "dayLow": 810.3,
+        "dayHigh": 831.0,
+        "regularMarketPreviousClose": 816.95,
+        "regularMarketOpen": 820.5,
+        "regularMarketDayLow": 810.3,
+        "regularMarketDayHigh": 831.0,
         "dividendRate": 13.7,
-        "dividendYield": 0.0150999995,
+        "dividendYield": 0.0168,
         "exDividendDate": 1716336000,
         "payoutRatio": 0.1503,
         "fiveYearAvgDividendYield": 1.39,
-        "beta": 0.809,
-        "trailingPE": 11.815357,
-        "volume": 1725145,
-        "regularMarketVolume": 1725145,
-        "averageVolume": 955473,
-        "averageVolume10days": 1971680,
-        "averageDailyVolume10Day": 1971680,
-        "bid": 760.0,
-        "ask": 760.15,
-        "marketCap": 7926149283840,
+        "beta": 0.889,
+        "trailingPE": 11.041778,
+        "volume": 2139387,
+        "regularMarketVolume": 2139387,
+        "averageVolume": 1024580,
+        "averageVolume10days": 2357426,
+        "averageDailyVolume10Day": 2357426,
+        "bid": 829.35,
+        "ask": 829.9,
+        "marketCap": 7406533738496,
         "fiftyTwoWeekLow": 543.15,
         "fiftyTwoWeekHigh": 912.1,
-        "priceToSalesTrailing12Months": 2.4229069,
-        "fiftyDayAverage": 793.746,
-        "twoHundredDayAverage": 668.9475,
+        "priceToSalesTrailing12Months": 2.2640681,
+        "fiftyDayAverage": 796.276,
+        "twoHundredDayAverage": 671.3065,
         "trailingAnnualDividendRate": 13.7,
-        "trailingAnnualDividendYield": 0.017672857,
+        "trailingAnnualDividendYield": 0.016769692,
         "currency": "INR",
-        "enterpriseValue": 12275861684224,
+        "enterpriseValue": 12648463728640,
         "profitMargins": 0.20507,
         "floatShares": 3750657411,
         "sharesOutstanding": 8924609536,
         "heldPercentInsiders": 0.58252,
-        "heldPercentInstitutions": 0.26962,
-        "impliedSharesOutstanding": 10426399744,
+        "heldPercentInstitutions": 0.26978,
+        "impliedSharesOutstanding": 8925740032,
         "bookValue": 464.938,
-        "priceToBook": 1.6350567,
+        "priceToBook": 1.7849693,
         "lastFiscalYearEnd": 1711843200,
         "nextFiscalYearEnd": 1743379200,
         "mostRecentQuarter": 1711843200,
         "earningsQuarterlyGrowth": 0.182,
         "netIncomeToCommon": 670846681088,
-        "trailingEps": 64.34,
+        "trailingEps": 75.16,
         "lastSplitFactor": "10:1",
         "lastSplitDate": 1416441600,
-        "enterpriseToRevenue": 3.753,
-        "52WeekChange": 0.3162408,
-        "SandP52WeekChange": 0.23990989,
+        "enterpriseToRevenue": 3.866,
+        "52WeekChange": 0.4119426,
+        "SandP52WeekChange": 0.24520457,
         "lastDividendValue": 13.7,
         "lastDividendDate": 1716336000,
         "exchange": "BSE",
@@ -205,7 +205,7 @@
         "timeZoneShortName": "IST",
         "uuid": "fa89b395-11a9-3d49-bee8-a9b5173b0644",
         "gmtOffSetMilliseconds": 19800000,
-        "currentPrice": 760.2,
+        "currentPrice": 829.9,
         "recommendationKey": "none",
         "totalCash": 1198056144896,
         "totalCashPerShare": 134.242,
