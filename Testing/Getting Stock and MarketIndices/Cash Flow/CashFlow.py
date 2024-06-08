@@ -28,9 +28,21 @@ def save_to_file(data, filename):
     except Exception as e:
         print(f"Error saving data to file: {e}")
 
-symbol = "RELIANCE.BO"
-cash_flow_data = get_Cash_Flow(symbol)
-if cash_flow_data is not None:
-    save_to_file(cash_flow_data, f"{symbol}_cash_flow_data.json")
-else:
-    print(f"No data to save for {symbol}")
+nifty_50_symbols = [
+    "RELIANCE.NS", "TCS.NS", "HDFCBANK.NS", "INFY.NS", "HDFC.NS",
+    "ICICIBANK.NS", "KOTAKBANK.NS", "HINDUNILVR.NS", "SBIN.NS", "BAJFINANCE.NS",
+    "BHARTIARTL.NS", "ASIANPAINT.NS", "ITC.NS", "AXISBANK.NS", "LT.NS",
+    "DMART.NS", "SUNPHARMA.NS", "ULTRACEMCO.NS", "TITAN.NS", "NESTLEIND.NS",
+    "WIPRO.NS", "MARUTI.NS", "M&M.NS", "HCLTECH.NS", "NTPC.NS",
+    "TECHM.NS", "POWERGRID.NS", "TATAMOTORS.NS", "INDUSINDBK.NS", "SBILIFE.NS",
+    "TATASTEEL.NS", "GRASIM.NS", "BAJAJFINSV.NS", "ADANIGREEN.NS", "CIPLA.NS",
+    "ONGC.NS", "HDFCLIFE.NS", "BPCL.NS", "JSWSTEEL.NS", "COALINDIA.NS",
+    "BRITANNIA.NS", "HEROMOTOCO.NS", "SHREECEM.NS", "DABUR.NS", "ADANIPORTS.NS",
+    "EICHERMOT.NS", "DIVISLAB.NS", "HINDALCO.NS", "UPL.NS", "APOLLOHOSP.NS"
+]
+for symbol in nifty_50_symbols:
+    cash_flow_data = get_Cash_Flow(symbol)
+    if cash_flow_data is not None:
+        save_to_file(cash_flow_data, f"{symbol}_cash_flow_data.json")
+    else:
+        print(f"No data to save for {symbol}")
